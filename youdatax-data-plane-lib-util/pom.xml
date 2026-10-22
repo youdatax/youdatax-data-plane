@@ -1,0 +1,52 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.youdatax.dataplane</groupId>
+  <artifactId>youdatax-data-plane-lib-util</artifactId>
+  <version>0.0.3.0</version>
+  <name>yospace-core-data-plane-util</name>
+  <description>yospace-core-data-plane-util</description>
+  
+  <dependencies>
+<!--    api(project(":spi:data-plane:data-plane-spi"))-->
+      <dependency>
+        <groupId>org.youdatax.dataplane</groupId>
+        <artifactId>youdatax-data-plane-spi</artifactId>
+        <version>0.0.3-SNAPSHOT</version>
+      </dependency>
+<!--    implementation(project(":core:common:lib:util-lib"))-->
+      <dependency>
+        <groupId>com.yospace.common</groupId>
+        <artifactId>yospace-common-util-lib</artifactId>
+        <version>0.0.3-SNAPSHOT</version>
+      </dependency>
+<!--    implementation(libs.opentelemetry.instrumentation.annotations)
+opentelemetry-instrumentation-annotations = { module = "io.opentelemetry.instrumentation:opentelemetry-instrumentation-annotations", version.ref = "opentelemetry" }-->
+      <dependency>
+        <groupId>io.opentelemetry.instrumentation</groupId>
+        <artifactId>opentelemetry-instrumentation-annotations</artifactId>
+        <version>1.32.0</version>
+      </dependency>
+      
+<!--    testImplementation(project(":tests:junit-base"));-->
+      <dependency>
+        <groupId>org.eclipse.edc</groupId>
+        <artifactId>junit-base</artifactId>
+        <version>0.18.0</version>
+        <scope>test</scope>
+      </dependency>
+ <!--      junit-jupiter-api = { module = "org.junit.jupiter:junit-jupiter-api", version.ref = "jupiter" }-->
+      <dependency>
+        <groupId>org.junit.jupiter</groupId>
+        <artifactId>junit-jupiter-api</artifactId>
+        <version>6.0.1</version>
+        <scope>test</scope>
+      </dependency> 
+<!--       mockito-core = { module = "org.mockito:mockito-core", version.ref = "mockito" }   -->  
+      <dependency>
+        <groupId>org.mockito</groupId>
+        <artifactId>mockito-core</artifactId>
+        <version>5.2.0</version>
+        <scope>test</scope>
+      </dependency> 
+   </dependencies> 
+</project>

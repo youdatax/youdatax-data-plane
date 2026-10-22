@@ -1,0 +1,60 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.youdatax.dataplane</groupId>
+  <artifactId>youdatax-data-plane-kafka-service-main</artifactId>
+  <version>0.0.3.0</version>
+  <name>yospace-ext-data-plane-kafka</name>
+  <description>yospace-ext-data-plane-kafka</description>
+  
+  <dependencies>
+<!--    api(project(":spi:common:data-address:data-address-kafka-spi"))-->
+      <dependency>
+        <groupId>com.yospace.core</groupId>
+        <artifactId>yospace-core-spi-data-address-kafka</artifactId>
+        <version>0.0.3-SNAPSHOT</version>
+      </dependency>
+<!--    api(project(":spi:data-plane:data-plane-spi"))-->
+      <dependency>
+        <groupId>com.yospace.dataplane</groupId>
+        <artifactId>yospace-data-plane-spi-core</artifactId>
+        <version>0.0.3-SNAPSHOT</version>
+      </dependency>  
+<!--    implementation(project(":core:common:lib:util-lib"))-->
+      <dependency>
+        <groupId>com.yospace.common</groupId>
+        <artifactId>yospace-common-util-lib</artifactId>
+        <version>0.0.3-SNAPSHOT</version>
+      </dependency>      
+<!--    implementation(project(":core:common:lib:validator-lib"))-->
+      <dependency>
+        <groupId>com.yospace.common</groupId>
+        <artifactId>yospace-common-json-validator-lib</artifactId>
+        <version>0.0.3-SNAPSHOT</version>
+      </dependency>      
+<!--    implementation(project(":core:data-plane:data-plane-util"))-->
+      <dependency>
+        <groupId>org.youdatax.dataplane</groupId>
+        <artifactId>youdatax-data-plane-lib-util</artifactId>
+        <version>0.0.3-SNAPSHOT</version>
+      </dependency>    
+<!--    implementation(project(":extensions:common:validator:validator-data-address-kafka"))-->
+      <dependency>
+        <groupId>com.yospace.dataplane</groupId>
+        <artifactId>yospace-data-plane-kafka-service-address-validator</artifactId>  
+        <version>0.0.3-SNAPSHOT</version>
+      </dependency>        
+<!--    implementation(libs.kafkaClients)
+kafkaClients = { module = "org.apache.kafka:kafka-clients", version.ref = "kafkaClients" }-->
+      <dependency>
+        <groupId>org.apache.kafka</groupId>
+        <artifactId>kafka-clients</artifactId>
+        <version>4.2.0</version>
+      </dependency> 
+      
+<!--    testImplementation(project(":core:common:junit"))-->
+    
+<!--    testImplementation(libs.restAssured)-->
+    
+<!--    testImplementation(libs.awaitility)  -->
+  </dependencies>  
+</project>

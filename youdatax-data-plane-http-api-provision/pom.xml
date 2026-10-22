@@ -1,0 +1,49 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.youdatax.dataplane</groupId>
+  <artifactId>youdatax-data-plane-http-service-provision</artifactId>
+  <version>0.0.3.0</version>
+  <name>yospace-ext-data-plane-provision-http</name>
+  <description>yospace-ext-data-plane-provision-http</description>
+  
+  <dependencies>
+<!--    api(project(":spi:data-plane:data-plane-spi"))-->
+      <dependency>
+        <groupId>org.youdatax.dataplane</groupId>
+        <artifactId>youdatax-data-plane-spi</artifactId>
+        <version>0.0.3.0</version>
+      </dependency>
+<!--    api(project(":spi:common:http-spi"))-->
+      <dependency>
+        <groupId>com.yospace.core</groupId>
+        <artifactId>yospace-core-spi-http</artifactId>
+        <version>0.0.3-SNAPSHOT</version>
+      </dependency>    
+<!--    api(project(":spi:common:web-spi"))-->
+      <dependency>
+        <groupId>com.yospace.core</groupId>
+        <artifactId>yospace-core-spi-web</artifactId>
+        <version>0.0.3-SNAPSHOT</version>
+      </dependency>    
+<!--    implementation(project(":extensions:common:validator:validator-data-address-http-data"))
+      <dependency>
+        <groupId>com.yospace.dataplane</groupId>
+        <artifactId>yospace-data-plane-spi</artifactId>
+        <version>0.0.3.0</version>
+      </dependency>-->
+<!--    implementation(libs.jakarta.rsApi)
+jakarta-rsApi = { module = "jakarta.ws.rs:jakarta.ws.rs-api", version.ref = "rsApi" }-->
+      <dependency>
+        <groupId>jakarta.ws.rs</groupId>
+        <artifactId>jakarta.ws.rs-api</artifactId>
+        <version>4.0.0</version>
+      </dependency>
+      
+<!--    testImplementation(project(":core:common:junit"))
+    testImplementation(testFixtures(project(":core:common:lib:http-lib")))
+    testImplementation(testFixtures(project(":extensions:common:http:jersey-core")))
+    testImplementation(libs.awaitility)
+    testImplementation(libs.wiremock)
+    testImplementation(libs.restAssured)  -->
+  </dependencies>
+</project>

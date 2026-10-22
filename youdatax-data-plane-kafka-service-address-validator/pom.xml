@@ -1,0 +1,36 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.youdatax.dataplane</groupId>
+  <artifactId>youdatax-data-plane-kafka-service-address-validator</artifactId>
+  <version>0.0.3.0</version>
+  <name>yospace-ext-validator-data-address-kafka</name>
+  <description>yospace-ext-validator-data-address-kafka</description>
+  
+  <dependencies>
+<!--    api(project(":spi:common:core-spi"))-->
+      <dependency>
+        <groupId>com.yospace.core</groupId>
+        <artifactId>yospace-core-spi</artifactId>
+        <version>0.0.3-SNAPSHOT</version>
+      </dependency>
+<!--    api(project(":spi:common:validator-spi"))-->
+      <dependency>
+        <groupId>com.yospace.core</groupId>
+        <artifactId>yospace-core-spi-validator</artifactId>
+        <version>0.0.3-SNAPSHOT</version>
+      </dependency>    
+<!--    api(project(":spi:common:data-address:data-address-kafka-spi"))-->
+      <dependency>
+        <groupId>com.yospace.core</groupId>
+        <artifactId>yospace-core-spi-data-address-kafka</artifactId>
+        <version>0.0.3-SNAPSHOT</version>
+      </dependency>
+
+<!--    testImplementation(project(":core:common:junit-base"));-->
+       <dependency>
+        <groupId>org.eclipse.edc</groupId>
+        <artifactId>junit-base</artifactId>
+        <version>0.18.0</version>
+      </dependency>   
+   </dependencies> 
+</project>
