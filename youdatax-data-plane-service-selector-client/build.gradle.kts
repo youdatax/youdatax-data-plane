@@ -9,7 +9,7 @@
  *
  *  Contributors:
  *       Microsoft Corporation - initial API and implementation
- *
+ * \extensions\data-plane-selector\data-plane-selector-client
  */
 plugins {
     `java-library`
