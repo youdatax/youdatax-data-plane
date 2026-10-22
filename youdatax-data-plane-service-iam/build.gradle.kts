@@ -9,7 +9,7 @@
  *
  *  Contributors:
  *       Contributors to the Eclipse Foundation - initial API and implementation
- *
+ * \extensions\data-plane\data-plane-iam
  */
 
 plugins {
