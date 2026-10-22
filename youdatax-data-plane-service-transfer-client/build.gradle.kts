@@ -9,7 +9,7 @@
  *
  *  Contributors:
  *       Microsoft Corporation - initial API and implementation
- *
+ * \control-plane\api\control-plane-api-client
  */
 
 plugins {
