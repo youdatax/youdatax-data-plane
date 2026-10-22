@@ -1,3 +1,7 @@
+/*
+ * \extensions\data-plane\data-plane-kafka
+ */
+ 
 plugins {
     `java-library`
 }
