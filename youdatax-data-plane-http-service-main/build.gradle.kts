@@ -9,7 +9,7 @@
  *
  *  Contributors:
  *       Microsoft Corporation - initial API and implementation
- *
+ * \extensions\data-plane\data-plane-http
  */
 plugins {
     `java-library`
