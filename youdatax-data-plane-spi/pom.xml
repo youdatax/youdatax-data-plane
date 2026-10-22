@@ -1,0 +1,33 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.youdatax.dataplane</groupId>
+  <artifactId>youdatax-data-plane-spi</artifactId>
+  <version>0.0.3-SNAPSHOT</version>
+  <name>yospace-core-data-plane-spi</name>
+  <description>yospace-core-data-plane-spi</description>
+  
+  <dependencies>
+<!--    api(project(":spi:common:core-spi"))-->
+      <dependency>
+        <groupId>com.yospace.core</groupId>
+        <artifactId>yospace-core-spi</artifactId>
+        <version>0.0.3-SNAPSHOT</version>
+      </dependency>
+      
+<!--    testFixturesApi(project(":core:common:junit"))-->
+      <dependency>
+        <groupId>org.eclipse.edc</groupId>
+        <artifactId>junit</artifactId>
+        <version>0.18.0</version>
+        <scope>test</scope>
+      </dependency>    
+<!--    testFixturesImplementation(libs.awaitility)
+awaitility = { module = "org.awaitility:awaitility", version.ref = "awaitility" }-->
+      <dependency>
+        <groupId>org.awaitility</groupId>
+        <artifactId>awaitility</artifactId>
+        <version>4.2.2</version>
+        <scope>test</scope>
+      </dependency>  
+  </dependencies> 
+</project>
