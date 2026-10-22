@@ -9,7 +9,7 @@
  *
  *  Contributors:
  *       Microsoft Corporation - initial API and implementation
- *
+ * \extensions\data-plane\data-plane-http-oauth2-core
  */
 plugins {
     `java-library`
