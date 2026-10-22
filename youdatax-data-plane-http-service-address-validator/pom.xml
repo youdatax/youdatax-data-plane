@@ -1,8 +1,8 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>com.yospace.ext</groupId>
-  <artifactId>yospace-ext-validator-data-address-http-data</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <groupId>org.youdatax.dataplane</groupId>
+  <artifactId>youdatax-data-plane-http-service-address-validator</artifactId>
+  <version>0.0.3.0</version>
   <name>yospace-ext-validator-data-address-http-data</name>
   <description>yospace-ext-validator-data-address-http-data</description>
   

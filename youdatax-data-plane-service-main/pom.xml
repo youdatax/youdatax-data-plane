@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.youdatax.dataplane</groupId>
   <artifactId>youdatax-data-plane-service-main</artifactId>
-  <version>0.0.3-SNAPSHOT</version>
+  <version>0.0.3.0</version>
   <name>yospace-core-data-plane-core</name>
   <description>yospace-core-data-plane-core</description>
   
@@ -23,7 +23,7 @@
       <dependency>
         <groupId>org.youdatax.dataplane</groupId>
         <artifactId>youdatax-data-plane-spi</artifactId>
-        <version>0.0.3-SNAPSHOT</version>
+        <version>0.0.3.0</version>
       </dependency>
 <!--    implementation(project(":spi:common:token-spi"))-->
       <dependency>
@@ -47,7 +47,7 @@
       <dependency>
         <groupId>org.youdatax.dataplane</groupId>
         <artifactId>youdatax-data-plane-lib-util</artifactId>
-        <version>0.0.3-SNAPSHOT</version>
+        <version>0.0.3.0</version>
       </dependency>    
 <!--    implementation(project(":core:common:lib:state-machine-lib"))-->
       <dependency>

@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.youdatax.dataplane</groupId>
   <artifactId>youdatax-data-plane-http-service-main</artifactId>
-  <version>0.0.3-SNAPSHOT</version>
+  <version>0.0.3.0</version>
   <name>yospace-ext-data-plane-http</name>
   <description>yospace-ext-data-plane-http</description>
   
@@ -17,13 +17,13 @@
       <dependency>
         <groupId>org.youdatax.dataplane</groupId>
         <artifactId>youdatax-data-plane-spi</artifactId>
-        <version>0.0.3-SNAPSHOT</version>
+        <version>0.0.3.0</version>
       </dependency>    
 <!--    api(project(":spi:data-plane:data-plane-http-spi"))-->
       <dependency>
         <groupId>org.youdatax.dataplane</groupId>
         <artifactId>youdatax-data-plane-http-spi</artifactId>  
-        <version>0.0.3-SNAPSHOT</version>
+        <version>0.0.3.0</version>
       </dependency>    
 <!--    implementation(project(":core:common:lib:util-lib"))-->
       <dependency>

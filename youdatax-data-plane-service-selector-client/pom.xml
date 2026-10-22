@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.youdatax.dataplane</groupId>
   <artifactId>youdatax-data-plane-service-selector-client</artifactId>
-  <version>0.0.3-SNAPSHOT</version>
+  <version>0.0.3.0</version>
   <name>yospace-ext-data-plane-selector-client</name>
   <description>yospace-ext-data-plane-selector-client</description>
   
@@ -11,7 +11,7 @@
       <dependency>
         <groupId>com.yospace.dataplaneselector</groupId>
         <artifactId>yospace-data-plane-selector-spi</artifactId>
-        <version>0.0.3-SNAPSHOT</version>
+        <version>0.0.3.0</version>
       </dependency>
 <!--    api(project(":spi:common:auth-spi"))-->
       <dependency>

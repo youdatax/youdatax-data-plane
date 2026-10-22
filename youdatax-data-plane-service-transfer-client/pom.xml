@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.youdatax.dataplane</groupId>
   <artifactId>youdatax-data-plane-service-transfer-client</artifactId>
-  <version>0.0.3-SNAPSHOT</version>
+  <version>0.0.3.0</version>
   <name>yospace-ext-control-plane-api-client</name>
   <description>yospace-ext-control-plane-api-client</description>
   
@@ -29,7 +29,7 @@
       <dependency>
         <groupId>org.youdatax.dataplane</groupId> 
         <artifactId>youdatax-data-plane-spi</artifactId>
-        <version>0.0.3-SNAPSHOT</version>
+        <version>0.0.3.0</version>
       </dependency>
 <!--    implementation(libs.failsafe.core)
 failsafe-core = { module = "dev.failsafe:failsafe", version.ref = "failsafe" }-->

@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.youdatax.dataplane</groupId>
   <artifactId>youdatax-data-plane-kafka-service-address-validator</artifactId>
-  <version>0.0.3-SNAPSHOT</version>
+  <version>0.0.3.0</version>
   <name>yospace-ext-validator-data-address-kafka</name>
   <description>yospace-ext-validator-data-address-kafka</description>
   

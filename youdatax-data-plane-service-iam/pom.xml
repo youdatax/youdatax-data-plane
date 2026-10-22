@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.youdatax.dataplane</groupId>
   <artifactId>youdatax-data-plane-service-iam</artifactId>
-  <version>0.0.3-SNAPSHOT</version>
+  <version>0.0.3.0</version>
   <name>yospace-ext-data-plane-iam</name>
   <description>yospace-ext-data-plane-iam</description>
   
@@ -33,7 +33,7 @@
       <dependency>
         <groupId>org.youdatax.dataplane</groupId>
         <artifactId>youdatax-data-plane-spi</artifactId>
-        <version>0.0.3-SNAPSHOT</version>
+        <version>0.0.3.0</version>
       </dependency>  
 <!--    implementation(project(":core:common:lib:token-lib"))-->
       <dependency>

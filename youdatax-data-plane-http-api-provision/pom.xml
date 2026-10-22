@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.youdatax.dataplane</groupId>
   <artifactId>youdatax-data-plane-http-service-provision</artifactId>
-  <version>0.0.3-SNAPSHOT</version>
+  <version>0.0.3.0</version>
   <name>yospace-ext-data-plane-provision-http</name>
   <description>yospace-ext-data-plane-provision-http</description>
   
@@ -11,7 +11,7 @@
       <dependency>
         <groupId>org.youdatax.dataplane</groupId>
         <artifactId>youdatax-data-plane-spi</artifactId>
-        <version>0.0.3-SNAPSHOT</version>
+        <version>0.0.3.0</version>
       </dependency>
 <!--    api(project(":spi:common:http-spi"))-->
       <dependency>
@@ -29,7 +29,7 @@
       <dependency>
         <groupId>com.yospace.dataplane</groupId>
         <artifactId>yospace-data-plane-spi</artifactId>
-        <version>0.0.3-SNAPSHOT</version>
+        <version>0.0.3.0</version>
       </dependency>-->
 <!--    implementation(libs.jakarta.rsApi)
 jakarta-rsApi = { module = "jakarta.ws.rs:jakarta.ws.rs-api", version.ref = "rsApi" }-->

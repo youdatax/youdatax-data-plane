@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.youdatax.dataplane</groupId>
   <artifactId>youdatax-data-plane-http-service-oauth2</artifactId>
-  <version>0.0.3-SNAPSHOT</version>
+  <version>0.0.3.0</version>
   <name>yospace-ext-data-plane-http-oauth2-core</name>
   <description>yospace-ext-data-plane-http-oauth2-core</description>
   
@@ -21,7 +21,7 @@
       <dependency>
         <groupId>org.youdatax.dataplane</groupId>
         <artifactId>youdatax-data-plane-http-spi</artifactId>
-        <version>0.0.3-SNAPSHOT</version>
+        <version>0.0.3.0</version>
       </dependency>    
 <!--    api(project(":spi:common:oauth2-spi"))-->
       <dependency>
