@@ -19,15 +19,15 @@
 
 <!--    api(project(":spi:common:jwt-signer-spi"))-->
       <dependency>
-        <groupId>com.yospace.core</groupId>
-        <artifactId>yospace-core-spi-jwt</artifactId>
-        <version>0.0.3-SNAPSHOT</version>
+        <groupId>org.youdatax.core</groupId>
+        <artifactId>youdatax-core-spi-jwt</artifactId>
+        <version>0.0.3.0</version>
       </dependency>      
 <!--    api(project(":spi:common:token-spi"))-->
       <dependency>
-        <groupId>com.yospace.core</groupId>
-        <artifactId>yospace-core-spi-token</artifactId>
-        <version>0.0.3-SNAPSHOT</version>
+        <groupId>org.youdatax.core</groupId>
+        <artifactId>youdatax-core-spi-token</artifactId>
+        <version>0.0.3.0</version>
       </dependency>      
 <!--    api(project(":spi:data-plane:data-plane-spi"))-->
       <dependency>
@@ -37,9 +37,9 @@
       </dependency>  
 <!--    implementation(project(":core:common:lib:token-lib"))-->
       <dependency>
-        <groupId>com.yospace.core</groupId>
-        <artifactId>yospace-core-lib-token</artifactId>
-        <version>0.0.3-SNAPSHOT</version>
+        <groupId>org.youdatax.core</groupId>
+        <artifactId>youdatax-core-lib-token</artifactId>
+        <version>0.0.4.0</version>
       </dependency> 
        
 <!--    testImplementation(project(":core:common:junit"))  -->

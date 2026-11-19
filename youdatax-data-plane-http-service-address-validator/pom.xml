@@ -9,28 +9,28 @@
   <dependencies>
 <!--    api(project(":spi:common:core-spi"))-->
       <dependency>
-        <groupId>com.yospace.core</groupId>
-        <artifactId>yospace-core-spi</artifactId>
-        <version>0.0.3-SNAPSHOT</version>
+        <groupId>org.youdatax.core</groupId>
+        <artifactId>youdatax-core-spi-common</artifactId>
+        <version>0.0.3.0</version>
       </dependency>
 <!--    api(project(":spi:common:validator-spi"))-->
       <dependency>
-        <groupId>com.yospace.core</groupId>
-        <artifactId>yospace-core-spi-validator</artifactId>
-        <version>0.0.3-SNAPSHOT</version>
+        <groupId>org.youdatax.core</groupId>
+        <artifactId>youdatax-core-spi-validator</artifactId>
+        <version>0.0.3.0</version>
       </dependency>    
 <!--    api(project(":spi:common:data-address:data-address-http-data-spi"))-->
       <dependency>
-        <groupId>com.yospace.core</groupId>
-        <artifactId>yospace-core-spi-data-address-http</artifactId>
-        <version>0.0.3-SNAPSHOT</version>
+        <groupId>org.youdatax.common</groupId>
+        <artifactId>youdatax-common-spi-data-address-http</artifactId>
+        <version>0.0.4.2</version>
       </dependency>
       
 <!--    testImplementation(project(":tests:junit-base"));-->
        <dependency>
         <groupId>org.eclipse.edc</groupId>
         <artifactId>junit-base</artifactId>
-        <version>0.15.1</version>
+        <version>0.18.0</version>
       </dependency>   
    </dependencies> 
 </project>

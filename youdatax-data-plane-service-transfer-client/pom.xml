@@ -9,27 +9,27 @@
   <dependencies>
 <!--    api(project(":spi:common:auth-spi"))-->
       <dependency>
-        <groupId>com.yospace.core</groupId>
-        <artifactId>yospace-core-spi-auth</artifactId>
-        <version>0.0.3-SNAPSHOT</version>
+        <groupId>org.youdatax.common</groupId>
+        <artifactId>youdatax-common-spi-auth</artifactId>
+        <version>0.0.4.0</version>
       </dependency>
 <!--    api(project(":spi:common:http-spi"))-->
       <dependency>
-        <groupId>com.yospace.core</groupId>
-        <artifactId>yospace-core-spi-http</artifactId>
-        <version>0.0.3-SNAPSHOT</version>
+        <groupId>org.youdatax.core</groupId>
+        <artifactId>youdatax-core-spi-http</artifactId>
+        <version>0.0.3.0</version>
       </dependency>    
 <!--    api(project(":spi:control-plane:control-plane-spi"))-->
       <dependency>
-        <groupId>com.yospace.controlplane</groupId> 
-        <artifactId>yospace-control-plane-spi</artifactId>
-        <version>0.0.3-SNAPSHOT</version>
+        <groupId>org.youdatax.controlp</groupId> 
+        <artifactId>youdatax-control-plane-spi</artifactId>
+        <version>0.0.4.0</version>
       </dependency>    
 <!--    api(project(":spi:data-plane:data-plane-spi"))-->
       <dependency>
-        <groupId>org.youdatax.dataplane</groupId> 
+        <groupId>org.youdatax.datap</groupId> 
         <artifactId>youdatax-data-plane-spi</artifactId>
-        <version>0.0.3-SNAPSHOT</version>
+        <version>0.0.4-SNAPSHOT</version>
       </dependency>
 <!--    implementation(libs.failsafe.core)
 failsafe-core = { module = "dev.failsafe:failsafe", version.ref = "failsafe" }-->
