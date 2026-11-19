@@ -1,8 +1,8 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>org.youdatax.dataplane</groupId>
+  <groupId>org.youdatax.datap</groupId>
   <artifactId>youdatax-data-plane-kafka-service-address-validator</artifactId>
-  <version>0.0.3-SNAPSHOT</version>
+  <version>0.0.4-SNAPSHOT</version>
   <name>yospace-ext-validator-data-address-kafka</name>
   <description>yospace-ext-validator-data-address-kafka</description>
   
