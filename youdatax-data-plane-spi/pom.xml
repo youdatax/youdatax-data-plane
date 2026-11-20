@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.youdatax.datap</groupId>
   <artifactId>youdatax-data-plane-spi</artifactId>
-  <version>0.0.4-SNAPSHOT</version>
+  <version>0.0.4.0</version>
   <name>yospace-core-data-plane-spi</name>
   <description>yospace-core-data-plane-spi</description>
   

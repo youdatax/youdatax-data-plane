@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.youdatax.datap</groupId>
   <artifactId>youdatax-data-plane-kafka-service-main</artifactId>
-  <version>0.0.4-SNAPSHOT</version>
+  <version>0.0.4.0</version>
   <name>yospace-ext-data-plane-kafka</name>
   <description>yospace-ext-data-plane-kafka</description>
   
@@ -17,7 +17,7 @@
       <dependency>
         <groupId>org.youdatax.datap</groupId>
         <artifactId>youdatax-data-plane-spi</artifactId>
-        <version>0.0.4-SNAPSHOT</version>
+        <version>0.0.4.0</version>
       </dependency>  
 <!--    implementation(project(":core:common:lib:util-lib"))-->
       <dependency>
@@ -41,7 +41,7 @@
       <dependency>
         <groupId>org.youdatax.datap</groupId>
         <artifactId>youdatax-data-plane-kafka-service-address-validator</artifactId>  
-        <version>0.0.4-SNAPSHOT</version>
+        <version>0.0.4.0</version>
       </dependency>       
 <!--    implementation(libs.kafkaClients)
 kafkaClients = { module = "org.apache.kafka:kafka-clients", version.ref = "kafkaClients" }-->

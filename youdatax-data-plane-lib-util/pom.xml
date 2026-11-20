@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.youdatax.datap</groupId>
   <artifactId>youdatax-data-plane-lib-util</artifactId>
-  <version>0.0.4-SNAPSHOT</version>
+  <version>0.0.4.0</version>
   <name>yospace-core-data-plane-util</name>
   <description>yospace-core-data-plane-util</description>
   
@@ -11,7 +11,7 @@
       <dependency>
         <groupId>org.youdatax.datap</groupId>
         <artifactId>youdatax-data-plane-spi</artifactId>
-        <version>0.0.4-SNAPSHOT</version>
+        <version>0.0.4.0</version>
       </dependency>
 <!--    implementation(project(":core:common:lib:util-lib"))-->
       <dependency>

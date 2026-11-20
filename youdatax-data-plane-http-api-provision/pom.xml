@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.youdatax.datap</groupId>
   <artifactId>youdatax-data-plane-http-service-provision</artifactId>
-  <version>0.0.4-SNAPSHOT</version>
+  <version>0.0.4.0</version>
   <name>yospace-ext-data-plane-provision-http</name>
   <description>yospace-ext-data-plane-provision-http</description>
   
@@ -11,7 +11,7 @@
       <dependency>
         <groupId>org.youdatax.datap</groupId>
         <artifactId>youdatax-data-plane-spi</artifactId>
-        <version>0.0.4-SNAPSHOT</version>
+        <version>0.0.4.0</version>
       </dependency>
 <!--    api(project(":spi:common:http-spi"))-->
       <dependency>

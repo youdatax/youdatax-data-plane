@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.youdatax.datap</groupId>
   <artifactId>youdatax-data-plane-service-selector-client</artifactId>
-  <version>0.0.4-SNAPSHOT</version>
+  <version>0.0.4.0</version>
   <name>yospace-ext-data-plane-selector-client</name>
   <description>yospace-ext-data-plane-selector-client</description>
   

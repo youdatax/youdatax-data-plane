@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.youdatax.datap</groupId>
   <artifactId>yospace-data-plane-http-service-address-validator</artifactId>
-  <version>0.0.4-SNAPSHOT</version>
+  <version>0.0.4.0</version>
   <name>yospace-ext-validator-data-address-http-data</name>
   <description>yospace-ext-validator-data-address-http-data</description>
   
